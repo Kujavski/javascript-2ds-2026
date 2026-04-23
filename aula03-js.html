@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h1>Escolha uma imagen:</h1>
+    <h1>Escolha uma imagem:</h1>
     <input type="file" id="arquivo" accept="image/">
     <br>
     <br>
@@ -21,7 +21,7 @@
 
         input.onchange = function() {
             if(this.files[0]){
-                img.scr = URL.createObjectURL(this.files[0]);
+                img.src = URL.createObjectURL(this.files[0]);
             }
         }
 
